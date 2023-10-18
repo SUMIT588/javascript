@@ -1,3 +1,5 @@
+// object literals
+
 const myKey = Symbol('mykey1')
 
 const object = {
