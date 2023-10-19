@@ -58,11 +58,11 @@ console.log(instructor)
 
 // json javascript object notation
 
-{
-    "game" : "mobilelegend",
-    "player" : "sumit", 
-    "heroes" : "lancelot"
-}
+// {
+//     "game" : "mobilelegend",
+//     "player" : "sumit", 
+//     "heroes" : "lancelot"
+// }
 
 [
     {
