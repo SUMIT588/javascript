@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <input type="text" id="display" readonly />
+      <div>
+        <button class="clear">C</button>
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+      </div>
+      <div>
+        <button class="button">-</button>
+        <button class="button">4</button>
+        <button class="button">5</button>
+        <button class="button">6</button>
+      </div>
+      <div>
+        <button class="button">+</button>
+        <button class="button">6</button>
+        <button class="button">7</button>
+        <button class="button">8</button>
+      </div>
+      <div>
+        <button class="button">*</button>
+        <button class="button">9</button>
+        <button class="button">0</button>
+        <button class="button">/</button>
+      </div>
+      <div>
+        <button id="calculate">=</button>
+      </div>
+    </div>
+  </body>
+  <script>
+    let input = "";
+    const press = document.querySelectorAll(".button");
+    press.forEach((value) => {
+      value.addEventListener("click", function () {
+        if (this.innerText === this.innerText) {
+          console.log("1");
+          input += this.innerText;
+          document.getElementById("display").value = input;
+        }
+      });
+    });
+
+    const cal = document.getElementById("calculate");
+    cal.addEventListener("click", function () {
+      input = eval(input);
+      document.getElementById("display").value = input;
+    });
+
+    const clear = document.querySelector('.clear');
+    clear.addEventListener("click", function () {
+      input = "";
+      console.log("clear");
+      document.getElementById("display").value = input;
+    });
+  </script>
+</html>
