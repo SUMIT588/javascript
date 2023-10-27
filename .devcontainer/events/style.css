@@ -1,0 +1,29 @@
+#parent {
+  background: grey;
+  width: 300px;
+  padding:20px;
+  margin: 0 auto;
+  display:flex;
+
+}
+
+#redChild {
+  height: 80px;
+  width: 80px;
+  background: red;
+  margin:10px;
+}
+#whiteChild {
+  height: 80px;
+  width: 80px;
+  background: white;
+  margin:10px;
+
+}
+#blackChild {
+  height: 80px;
+  width: 80px;
+  background: black;
+  margin:10px;
+
+}

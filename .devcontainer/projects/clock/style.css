@@ -1,0 +1,22 @@
+#clock {
+  height: 50px;
+  width: 140px;
+  border-radius: 10px;
+  background: grey;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size: larger;
+}
+
+#center{
+    margin-top:50px;
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner{
+    color: blue;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="parent">
+      <div id="redChild"></div>
+      <div id="blackChild"></div>
+      <div id="whiteChild"></div>
+    </div>
+  </body>
+  <script>
+    const red = document.getElementById("redChild");
+    red.addEventListener("click", function (e) {
+      console.log("red child clicked")
+    }, true);
+    const parent = document.getElementById("parent");
+    parent.addEventListener("click", function () {
+      console.log("Parent is clicked")
+    }, true);
+  </script>
+</html>
+
+ <!-- event propogation
+ true for event capturing = top to bottom
+ false for event bubbling = bottom to top -->
+

@@ -1,0 +1,26 @@
+.button {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#grey {
+  background: grey;
+}
+#yellow {
+  background: yellow;
+}
+#red {
+  background: red;
+}
+#blue {
+  background: blue;
+}

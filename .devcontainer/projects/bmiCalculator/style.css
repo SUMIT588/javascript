@@ -1,0 +1,19 @@
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+#results{
+    color:red;
+    margin:10px;
+}
+
+h2{
+    color:green;
+}
+
+button{
+    color:blue;
+    border-radius: 2px;
+    border: none;
+}

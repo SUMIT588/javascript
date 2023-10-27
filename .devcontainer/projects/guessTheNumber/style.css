@@ -1,0 +1,44 @@
+#wrapper {
+  margin-top: 10%;
+  width: 80%;
+  border: 2px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+body {
+  background-color: grey;
+}
+
+label {
+  display: block;
+  font-size: 25px;
+}
+
+#guessNumber {
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
+}
+
+#submit {
+  display: block;
+  border-radius: 10px;
+  border:none;
+  margin:20px;
+  padding:10px;
+  font-size: 14px;
+}
+
+#remainingGuess{
+margin-bottom:10px;
+}
+
+
+
